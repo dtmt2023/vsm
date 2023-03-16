@@ -64,16 +64,6 @@ body {
     background-color: darkblue !important;
   }
 
-  .svmFeatureHL{
-    font-size: 25px;
-    margin-top: -49px;
-    margin-left: 77px;
-  }
-
-  .svmFeatureBdyTxt{
-    color:#000000;
-  }
-
   /* ENDS */
   
   /* SHADOW */
@@ -1599,3 +1589,49 @@ label {
     border-radius: 0px;
     
 }
+
+
+/*  SPECIFIC to Value stream management */
+
+.svmFeatureHL{
+    margin-top: -49px;
+    margin-left: 77px;
+  }
+
+  .vsmAmplifier{
+    font-size: 35px;
+    /* letter-spacing: 18px; */
+    font-weight: 700 !important;
+  } 
+
+/* Responsive text */
+/* responsive headlines  */
+@media (min-width: 320px) {
+  .svmFeatureHL{
+        font-size: 17px;
+  }
+  .vsmAmplifier{
+    letter-spacing: 1px;
+  }
+} /* small devices */
+@media (min-width: 576px) {
+  .svmFeatureHL{
+    font-size: 22px;
+   }
+   .vsmAmplifier{
+    letter-spacing: 5px;
+  }
+} /* Less when content in headers are less. ELSE keep more if content in header is more */
+@media (min-width: 768px) {
+  .svmFeatureHL{
+    font-size: 25px;
+   }
+   .vsmAmplifier{
+        letter-spacing: 18px;
+    }
+} /* ipad */
+
+
+  .svmFeatureBdyTxt{
+    color:#000000;
+  }
