@@ -1483,7 +1483,7 @@ label {
 /*  responsive 'bdyText'. Show more on mobile. Standard everywhere */
 @media (min-width: 320px) {
   .fs_bdyTxt {
-    font-size: 19px;
+    font-size: 16px;
     font-family: "Poppins", "Roboto", "Open Sans", sans-serif;
   }
 } /* small devices */
@@ -1592,6 +1592,55 @@ label {
 
 
 /*  SPECIFIC to Value stream management */
+@media (min-width: 320px) {
+  .fs_vsm_HL {
+    font-size: 32px;
+    font-family: "Poppins", "Roboto", "Open Sans", sans-serif;
+  }
+} /* small devices */
+@media (min-width: 576px) {
+  .fs_vsm_HL {
+    font-size: 36px;
+    font-family: "Poppins", "Roboto", "Open Sans", sans-serif;
+  }
+} /* Less when content in headers are less. ELSE keep more if content in header is more */
+@media (min-width: 768px) {
+  .fs_vsm_HL {
+    font-size: 72px;
+    font-family: "Poppins", "Roboto", "Open Sans", sans-serif;
+  }
+}
+
+.fs_vsm_image {
+  border: 16px solid #046dffbe;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+@media (min-width: 320px) {
+  .fs_vsm_image {
+    width:120px;
+    min-height: 120px;
+    border: 6px solid #046dffbe;
+  }
+} /* small devices */
+@media (min-width: 576px) {
+  .fs_vsm_image {
+    width:140px;
+    min-height: 140px;
+    border: 8px solid #046dffbe;
+  }
+} /* Less when content in headers are less. ELSE keep more if content in header is more */
+@media (min-width: 768px) {
+  .fs_vsm_image {
+    width:180px;
+    min-height: 180px;
+  }
+}
+
+
+
+
 
 .svmFeatureHL{
     margin-top: -49px;
@@ -1599,7 +1648,7 @@ label {
   }
 
   .vsmAmplifier{
-    font-size: 35px;
+    font-size: 20px;
     /* letter-spacing: 18px; */
     font-weight: 700 !important;
   } 
@@ -1612,6 +1661,7 @@ label {
   }
   .vsmAmplifier{
     letter-spacing: 1px;
+    font-size: 16px;
   }
 } /* small devices */
 @media (min-width: 576px) {
@@ -1619,7 +1669,8 @@ label {
     font-size: 22px;
    }
    .vsmAmplifier{
-    letter-spacing: 5px;
+    letter-spacing: 3px;
+    font-size: 21px;
   }
 } /* Less when content in headers are less. ELSE keep more if content in header is more */
 @media (min-width: 768px) {
@@ -1627,7 +1678,7 @@ label {
     font-size: 25px;
    }
    .vsmAmplifier{
-        letter-spacing: 18px;
+        letter-spacing: 12px;
     }
 } /* ipad */
 
