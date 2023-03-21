@@ -1666,7 +1666,7 @@ label {
 } /* small devices 65vw; */
 @media (min-width: 576px) {
   .svmFeatureHL{
-      font-size: 22px;
+      font-size: 18px;
    }
    .vsmAmplifier{
       letter-spacing: 3px;
