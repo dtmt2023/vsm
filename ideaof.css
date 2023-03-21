@@ -544,7 +544,7 @@ navbar-hide {
     border-radius: 0px !important;
     height: 40px;
     border: 1px solid #0e0d0d21 !important;
-    /* border-bottom: 1px solid black!important;
+    /* border-bottom: 1px solid black!important; */
 }
 
 ::placeholder {
@@ -575,7 +575,6 @@ label {
   width: 33%;
   text-align: center;
 }
-.fs_LThumbImg{}
 .fs_MThumbImg{min-height: 160px;}
 .fs_SThumbImg{min-height: 80px;}
 .fs_LThumbBdy{min-height: 160px;}
@@ -601,7 +600,7 @@ label {
   box-shadow: -1px 4px 28px -23px #0c0c0c;
 }
 .shadowNow{
-  box-shadow: -1px 15px 29px -28px #656565;"
+  box-shadow: -1px 15px 29px -28px #656565;
 }
 
 .fs_12BorderR{
@@ -1653,34 +1652,55 @@ label {
     font-weight: 700 !important;
   } 
 
+
 /* Responsive text */
 /* responsive headlines  */
-@media (min-width: 320px) {
+@media (min-width: 350px) {
   .svmFeatureHL{
-        font-size: 17px;
+    font-size: 17px;
   }
   .vsmAmplifier{
-    letter-spacing: 1px;
-    font-size: 16px;
+      letter-spacing: 1px;
+      font-size: 16px;
   }
-} /* small devices */
+} /* small devices 65vw; */
 @media (min-width: 576px) {
   .svmFeatureHL{
-    font-size: 22px;
+      font-size: 22px;
    }
    .vsmAmplifier{
-    letter-spacing: 3px;
-    font-size: 21px;
+      letter-spacing: 3px;
+      font-size: 21px;
   }
-} /* Less when content in headers are less. ELSE keep more if content in header is more */
+} 
 @media (min-width: 768px) {
   .svmFeatureHL{
-    font-size: 25px;
+      font-size: 25px;
    }
    .vsmAmplifier{
         letter-spacing: 12px;
+        font-size: 17px;
     }
 } /* ipad */
+@media (min-width: 992px) { 
+  .svmFeatureHL{
+    font-size: 25px;
+ }
+ .vsmAmplifier{
+      letter-spacing: 12px;
+      font-size: 21px;
+  }
+} /* desktop */
+@media (min-width: 1200px) {
+  .svmFeatureHL{
+    font-size: 25px;
+ }
+ .vsmAmplifier{
+      letter-spacing: 12px;
+      font-size: 21px;
+  }
+}
+
 
 
   .svmFeatureBdyTxt{
